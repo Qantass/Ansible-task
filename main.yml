@@ -1,0 +1,10 @@
+---
+- name: Installing data bases
+  #hosts: mysql
+  #hosts: tomcat
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: installing MySQL
+    
